@@ -42,17 +42,37 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: pink;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin: 10px
 }
 button:hover {
-  border-color: #646cff;
+  border-color: purple;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+h3 {
+  color: gray;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-color: palevioletred;
+  border-style: groove;
+}
+
+.card .card-header {
+  font-weight: bold;
+  font-size: large;
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -61,8 +81,5 @@ button:focus-visible {
   }
   a:hover {
     color: #747bff;
-  }
-  button {
-    background-color: #8f7b7b;
   }
 }
