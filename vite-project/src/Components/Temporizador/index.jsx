@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function App() {
+export function Temporizador() {
     const [isOn, setIsOn] = useState(false);
     const [timer, setTimer] = useState(0);
 
